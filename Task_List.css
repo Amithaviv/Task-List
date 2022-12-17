@@ -1,0 +1,60 @@
+body{
+    background-color:khaki;
+    font-family: monospace;
+}
+#image {
+    height: 200px;
+    width: 200px;
+    border-radius: 4%;
+}
+#headImage{
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+#title{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 80px;
+    margin-left: 10px;
+}
+#form{
+    background-color:lightblue ;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 4%;
+    width: 25%;
+    padding-left: 10px; 
+    padding-bottom: 5px;
+    border-width: 5px;
+}
+#add{
+    color: green;
+    font-size: 25px;
+    font-weight: 200;
+
+}
+#delete{
+    color: red;
+    font-size: 25px;
+    font-weight: 200;
+    margin-left: 5%;
+}
+#btns{
+    display: inline-flex;}
+table, th, td{
+    border:5px solid black;
+    font-size: 35px;
+    font-family: monospace;
+}
+table{
+    width: 100%;
+    background-color: aliceblue;
+}
+td{
+    text-align: center;
+}

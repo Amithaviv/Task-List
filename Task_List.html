@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Task_List.css" />
+    <title>Task List</title>
+</head>
+<body>
+    <div id="headImage">
+    <img id="image" src="https://img.freepik.com/vector-premium/mano-vector-pluma-escribir-lista-verificacion-empresario-firma-documento_168129-25.jpg?w=2000"></img>
+    <h1 id="title">Task List</h1>
+    </div>
+    </div>
+    <br></br>
+    <form id="form">
+    <div>
+        <label>Task Name:</label>
+        <input type="text" id="select3" value="Add Task Name"><br><br>
+    </div>
+    <div>
+        <label>Task Details:</label>
+        <input type="text" id="select2" value="Add Task Details"><br><br>
+    </div>
+    <div>
+        <label>Deadline:</label>
+        <input type="date" id="select1"><br><br>
+    </div>
+    <div id="btns">
+        <button type="button" id="add" onclick="select()">ADD</button>
+        <button type="button" id="delete" onclick="deleteRows()">DELETE ALL</button>
+        </div>
+</form>
+<table id="table">
+    <tr>
+      <th>Deadline</th>
+      <th>Task Details</th>
+      <th>Task Name</th>
+    </tr>
+</table>
+</body>
+<script src="Task_List.js"></script>
+</html>
